@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <underline>false</underline>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox_category">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>ვისკი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>არაყი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>კონიაკი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ლიქიორი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ლუდი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ჭაჭა</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ლიმონათი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>წყალი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ჩაი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ყავა</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_category">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>კატეგორია:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_drink">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>სასმელი:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_drink">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Jack Daniel's</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jameson</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chivas Regal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Absolut</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Grey Goose</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Smirnoff</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sarajishvili</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hennessy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Old Kakheti</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Baileys</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jägermeister</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Limoncello</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Paulaner</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Guinness</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Qarva</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sarajishvili Chacha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Askaneli Chacha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>მსხალი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ტარხუნა</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ნაღები</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ლიმონი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ბაკურიანი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>სნო</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ბახმარო</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>მთის</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>შავი</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>მწვანე</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>პიტნის</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ესპრესო</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ლატე</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>კაპუჩინო</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_size">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ზომა:</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_small">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>პატარა</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_medium">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>საშუალო</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_large">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>დიდი</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_price">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ფასი:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_order">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>461</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>შეკვეთა</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_result">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>461</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
